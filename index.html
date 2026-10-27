@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAPE Robotics Lab | University of Cape Town</title>
+  <meta name="description" content="CAPE Robotics Lab (Circular Autonomy & Physical Embodiment) is a new robotics research group at the University of Cape Town.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CAPE Robotics Lab | University of Cape Town">
+  <meta property="og:description" content="A new robotics research group at the University of Cape Town. Prospective research in robot learning and physical autonomy for environmental sustainability.">
+  <meta property="og:image" content="assets/images/phd-poster-preview.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/cape-robotics-lab-logo.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+
+  <!-- Google Fonts: Montserrat (headings) & Roboto (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Minimal Header -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#" class="brand-text" aria-label="CAPE Robotics Lab">
+        CAPE Robotics Lab
+      </a>
+
+      <nav class="site-nav">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#research">Prospective Research</a></li>
+          <li><a href="#phd-positions">PhD Opportunities</a></li>
+          <li><a href="#people">People</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="assets/docs/CAPE-Robotics-Lab-PhD-Advert.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+          PhD Advert (PDF)
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Simple Notice Bar -->
+    <div class="notice-bar">
+      <div class="container">
+        <span><strong>(Coming Soon):</strong> We are establishing the group and actively looking for PhD students for the 2027 intake.</span>
+        <a href="#phd-positions" class="notice-link">View PhD opportunities &rarr;</a>
+      </div>
+    </div>
+
+    <!-- Hero / Intro -->
+    <section class="hero-section" id="about">
+      <div class="container hero-container">
+        <p class="hero-affiliation">Department of Computer Science &middot; University of Cape Town</p>
+        
+        <div class="hero-logo-wrap">
+          <img src="assets/images/cape-robotics-lab-logo-full-name.svg" alt="CAPE Robotics Lab - Circular Autonomy &amp; Physical Embodiment" class="hero-logo">
+          <h1 class="visually-hidden">CAPE Robotics Lab - Circular Autonomy &amp; Physical Embodiment</h1>
+        </div>
+
+        <div class="hero-body">
+          <p>
+            CAPE Robotics Lab is a new robotics research group being established in the Department of Computer Science at the University of Cape Town.
+          </p>
+          <p>
+            Our goal is to develop robots that learn physical skills for real-world impact, with applications in environmental sustainability. From e-waste recovery and recycling to repair and remanufacturing.
+          </p>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#phd-positions" class="btn btn-primary">
+            Apply for a PhD with Us
+          </a>
+          <a href="#research" class="btn btn-secondary">
+            Prospective Research Topics
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Prospective Research Topics -->
+    <section class="section" id="research">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Research Topics</h2>
+          <p>
+            Below are prospective topics that incoming students and researchers could work on:
+          </p>
+        </div>
+
+        <div class="topics-grid">
+          <div class="topic-item">
+            <span class="topic-index">01</span>
+            <h3>Task and Motion Planning (TAMP) for Robotic Disassembly</h3>
+            <p>Planning disassembly sequences for products whose condition, variant, or design is unknown in advance.</p>
+          </div>
+
+          <div class="topic-item">
+            <span class="topic-index">02</span>
+            <h3>Deformable Linear Object Manipulation</h3>
+            <p>Perceiving, untangling, and routing cables and wires, such as the cable bundles inside old computer cases.</p>
+          </div>
+
+          <div class="topic-item">
+            <span class="topic-index">03</span>
+            <h3>Sim-to-Real Transfer &amp; Synthetic Data for Robot Learning</h3>
+            <p>Generative augmentation of robot demonstrations (e.g., NVIDIA Cosmos Transfer) to scale and diversify training data.</p>
+          </div>
+
+          <div class="topic-item">
+            <span class="topic-index">04</span>
+            <h3>Reinforcement Learning for Contact-Rich Manipulation</h3>
+            <p>Online RL and fine-tuning so policies improve on real hardware: unscrewing, unclipping, and connector removal.</p>
+          </div>
+
+          <div class="topic-item">
+            <span class="topic-index">05</span>
+            <h3>Semantic Reasoning &amp; Long-Horizon Task Planning</h3>
+            <p>Grounding vision-language models in robot actions with chain-of-thought, behaviour trees, and hierarchical planning.</p>
+          </div>
+
+          <div class="topic-item">
+            <span class="topic-index">06</span>
+            <h3>Execution Monitoring &amp; Failure Recovery</h3>
+            <p>Perception-based detection of task success and failure for deployed VLA policies, triggering retries or replanning.</p>
+          </div>
+
+          <div class="topic-item">
+            <span class="topic-index">07</span>
+            <h3>Metric 3D Perception for Manipulation</h3>
+            <p>Learned depth and 3D scene understanding accurate at real-world scale. Disassembly needs millimetres, not centimetres.</p>
+          </div>
+
+          <div class="topic-item">
+            <span class="topic-index">08</span>
+            <h3>Your Own Proposal</h3>
+            <p>A complementary topic aligned with the lab’s research, such as tactile sensing, inspection, or human-robot collaboration.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PhD Opportunity / Advert Callout -->
+    <section class="section section-alt" id="phd-positions">
+      <div class="container">
+        <div class="phd-card">
+          <div class="phd-info">
+            <span class="sub-label">Opportunities</span>
+            <h2>Looking for PhD Students</h2>
+            <p class="phd-lead">
+              We have funded PhD positions for the <strong>2027 intake</strong> through the NRF Presidential PhD Programme (PPP) in Digital Transformation.
+            </p>
+
+            <ul class="phd-details-list">
+              <li><strong>Funding:</strong> R200,000 per year for up to 3 years, plus equipment allowance, conference travel, and international mobility funding.</li>
+              <li><strong>Eligibility:</strong> Master’s in CS, IS, or a related field with at least 65% (completed by Dec 2026), based full-time in Cape Town for the fellowship.</li>
+              <li><strong>Key dates:</strong> Apply by 10 November 2026 (AoE). UCT CS parallel application by 15 November 2026.</li>
+              <li><strong>Application link:</strong> <a href="https://forms.gle/VacwKDwdDyBvNSTp7" target="_blank" rel="noopener noreferrer">forms.gle/VacwKDwdDyBvNSTp7</a></li>
+            </ul>
+
+            <div class="phd-actions">
+              <a href="https://forms.gle/VacwKDwdDyBvNSTp7" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                Apply Online (Google Form)
+              </a>
+              <a href="assets/docs/CAPE-Robotics-Lab-PhD-Advert.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                View PhD Advert (PDF)
+              </a>
+              <a href="mailto:sicelukwanda.zwane+w@gmail.com?subject=PhD%20Application%20Inquiry%20-%20CAPE%20Robotics%20Lab" class="btn btn-outline">
+                Inquire via Email
+              </a>
+            </div>
+
+            <p class="phd-disclaimer">
+              * CAPE Robotics Lab selection is separate from UCT admissions and PPP funding decisions; endorsement does not guarantee admission or funding. Institutional criteria: <a href="https://sit.uct.ac.za/phd-and-post-doctoral-scholarships" target="_blank" rel="noopener noreferrer">sit.uct.ac.za/phd-and-post-doctoral-scholarships</a>.
+            </p>
+          </div>
+
+          <div class="phd-preview">
+            <a href="assets/docs/CAPE-Robotics-Lab-PhD-Advert.pdf" target="_blank" rel="noopener noreferrer" class="poster-link" title="Click to view full PDF advert">
+              <picture>
+                <source srcset="assets/images/phd-poster-preview.webp" type="image/webp">
+                <img src="assets/images/phd-poster-preview.png" alt="CAPE Robotics Lab Funded PhD Poster">
+              </picture>
+              <span class="poster-caption">Click to open full PDF advert</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- People (Kept humble and understated) -->
+    <section class="section" id="people">
+      <div class="container">
+        <div class="section-heading">
+          <h2>People</h2>
+        </div>
+
+        <div class="people-content">
+          <div class="person-entry">
+            <a href="https://sicelukwanda.com" target="_blank" rel="noopener noreferrer" class="person-photo-link" aria-label="Sicelukwanda Zwane's website">
+              <img src="assets/images/director-sicelukwanda-zwane.jpg" alt="Sicelukwanda Zwane" class="person-photo">
+            </a>
+            <div class="person-info">
+              <h3 class="person-name">
+                <a href="https://sicelukwanda.com" target="_blank" rel="noopener noreferrer">Sicelukwanda Zwane</a>
+              </h3>
+              <p class="person-role">Lab Director &middot; Lecturer</p>
+              <p class="person-dept">Department of Computer Science, University of Cape Town</p>
+              <div class="person-links">
+                <a href="https://sicelukwanda.com" target="_blank" rel="noopener noreferrer">Website</a>
+                <span class="sep">&middot;</span>
+                <a href="https://scholar.google.com/citations?user=G4SfJqkAAAAJ&hl" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+                <span class="sep">&middot;</span>
+                <a href="https://github.com/Sicelukwanda" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="sep">&middot;</span>
+                <a href="https://www.linkedin.com/in/sicelukwanda/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <span class="sep">&middot;</span>
+                <!-- <a href="mailto:sicelukwanda.zwane+w@gmail.com">Email</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Affiliation -->
+    <section class="section section-alt" id="contact">
+      <div class="container contact-container">
+        <div class="section-heading">
+          <h2>Contact</h2>
+        </div>
+        <p>For questions regarding prospective research or PhD applications, please reach out:</p>
+        <div class="contact-details">
+          <p>
+            <strong>Email:</strong> <a href="mailto:szwane@cs.uct.ac.za">szwane@cs.uct.ac.za</a>
+          </p>
+          <p>
+            <strong>Location:</strong> Department of Computer Science, School of IT, University of Cape Town, Rondebosch, Cape Town, South Africa
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p>&copy; 2026 CAPE Robotics Lab &middot; University of Cape Town</p>
+      <!-- <p class="footer-sub"><a href="assets/docs/CAPE-Robotics-Lab-PhD-Advert.pdf" target="_blank" rel="noopener noreferrer">PhD Advert (PDF)</a> &middot; Hosted on GitHub Pages</p> -->
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
